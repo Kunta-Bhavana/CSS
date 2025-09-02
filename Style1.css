@@ -1,0 +1,33 @@
+.container {
+  background-color: green;
+  height: 250px;
+  width: 500px;
+  margin-top: 200px;
+  margin-left: 500px;
+  position: relative;
+}
+
+.square {
+  width: 230px;
+  height: 230px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 200px;
+  margin-bottom: 200px;
+  margin-left: 140px;
+  margin-top: -80px;
+  border-top: 0cm;
+  position: absolute;
+}
+
+.roundcontainer {
+  background-color: orange;
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  border-radius: 200px;
+  border: 1px solid white;
+  margin-top: 20px;
+  margin-left: 30px;
+  
+}
