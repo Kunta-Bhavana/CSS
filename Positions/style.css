@@ -1,0 +1,161 @@
+.container {
+
+  margin-bottom: 20px;
+}
+
+.container h3 {
+  font-size: 28px;
+  margin: 0;
+}
+
+
+.container1 {
+  width: 100%;
+  
+}
+
+
+.subchild1, .subchild2, .subchild3, .subchild4 {
+  display: inline-block;  
+  position: relative;      
+  margin: 10px;            
+  vertical-align: top;     
+}
+
+
+.subchild1 img, .subchild2 img, .subchild3 img, .subchild4 img {
+  display: block;
+  width: 320px;
+  height: 320px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.subchild1 h3, .subchild2 h3, .subchild3 h3, .subchild4 h3 {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 10px;
+  color: white;
+  background-color: black
+}
+.container2{
+width:100%;
+
+}
+.subchild5{
+  display: inline-block;
+  position: relative;
+  margin: 10px;           
+  vertical-align: top; 
+
+}
+.subchild5 img{
+display: block;
+width: 320px;
+height: 320px;
+margin: 0;
+padding: 0;
+
+}
+.subchild5 h3{
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  top: 0;
+  margin: 0;
+
+
+}
+
+.subchild6{
+  display:inline-block;
+  position: relative;
+  margin: 10px;
+  vertical-align: top;
+
+}
+.subchild6 img{
+  display: block;
+  width: 320px;
+  height: 320px;
+  margin: 0;
+  padding: 0;
+
+}
+.subchild6 h3{
+position: absolute;
+background-color: black;
+color: white;
+top: 0%;
+padding: 10px;
+margin: 0;
+
+}
+.subchild7{
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+
+}
+.subchild7 img{
+  height: 320px;
+  width: 320px;
+  display: block;
+ margin: 0;
+ padding: 0;
+
+}
+.subchild7 h3{
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: 0;
+  margin: 0;
+  padding: 10px;
+
+}
+.subchild8{
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+
+}
+.subchild8 img{
+  display: block;
+  height: 320px;
+  width: 320px;
+  margin: 0;
+  padding: 0;
+
+}
+.subchild8 h3{
+  position: absolute;
+  background-color: black;
+  color: white;
+  top: 0;
+  padding: 10px;
+  margin: 0;
+
+
+}
+.piccontainer{
+  position: relative;
+
+}
+.piccontainer img{
+  height:700px ;
+  width: 1500px;
+}
+.piccontainer h1 span{
+  background-color: black;
+  padding: 10px;
+}
+.piccontainer h1{
+  left: 750px;
+  top: 350px;
+  position: absolute;
+  color: white;
+}

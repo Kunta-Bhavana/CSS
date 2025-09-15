@@ -1,0 +1,84 @@
+.container {
+   height: 600px;
+  /*width: 600px;
+  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.class1,
+.class2,
+.class3,
+.class4,
+.class5,
+.class6,
+.class7,
+.class8,
+.class9 {
+  width: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: black;
+  animation-name: id;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: transform 0.1s ease;
+}
+
+.class1 {
+  height: 10px;
+  animation-delay: 0s;
+}
+
+.class2 {
+  height: 20px;
+  animation-delay: 0.2s;
+}
+
+.class3 {
+  height: 30px;
+  animation-delay: 0.4s;
+}
+
+.class4 {
+  height: 40px;
+  animation-delay: 0.6s;
+}
+
+.class5 {
+  height: 60px;
+  animation-delay: 0.8s;
+}
+
+.class6 {
+  height: 40px;
+  animation-delay: 1s;
+}
+
+.class7 {
+  height: 30px;
+  animation-delay: 1.2s;
+}
+
+.class8 {
+  height: 20px;
+  animation-delay: 1.4s;
+}
+
+.class9 {
+  height: 10px;
+  animation-delay: 1.6s;
+}
+
+@keyframes id {
+  from {
+    transform: scaleY(1);
+  }
+
+  to {
+    transform: scaleY(2);
+  }
+}
